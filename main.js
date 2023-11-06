@@ -1,47 +1,47 @@
 const keySongs = [
     {
-        key: 1,
-        song: 'pom',
-        down: false
-    },
-    {
-        key: 2,
-        song: 'clap',
-        down: false
-    },
-    {
-        key: 3,
+        1,
         song: 'tim',
         down: false
     },
     {
-        key: 4,
-        song: 'puff',
+        key: 2,
+        song: 'tom',
         down: false
     },
     {
-        key: 5,
+        key: 3,
+        song: 'clap',
+        down: false
+    },
+    {
+        key: 4,
         song: 'splash',
         down: false
     },
     {
-        key: 6,
+        key: 5,
         song: 'toim',
         down: false
     },
     {
-        key: 7,
-        song: 'psh',
+        key: 6,
+        song: 'puff',
         down: false
     },
     {
-        key: 8,
+        key: 7,
         song: 'tic',
         down: false
     },
     {
-        key: 9,
+        key: 8,
         song: 'tom',
+        down: false
+    },
+    {
+        key: 9,
+        song: 'psh',
         down: false
     }
 ]
@@ -91,6 +91,4 @@ document.onkeyup = (event) => {
         keySong.down = false
 
     }
-
 }
-
